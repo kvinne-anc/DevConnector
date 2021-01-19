@@ -1,6 +1,6 @@
 import pandas
 
-from my_lambdata.my_mod import enlarge
+from lambdata_kvinneDPST9.my_mod import enlarge
 
 print("HELLO WORLD")
 
