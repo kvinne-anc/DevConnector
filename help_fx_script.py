@@ -8,4 +8,7 @@ from my_lambdata.helper_functions import Prime
 
 num = int(input("Enter a number: "))
 
+print("NUMBER", num)
+print(Prime(num))
+
 
