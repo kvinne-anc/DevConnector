@@ -1,0 +1,9 @@
+README.md
+setup.py
+lambdata_kvinneDPST9.egg-info/PKG-INFO
+lambdata_kvinneDPST9.egg-info/SOURCES.txt
+lambdata_kvinneDPST9.egg-info/dependency_links.txt
+lambdata_kvinneDPST9.egg-info/top_level.txt
+my_lambdata/__init__.py
+my_lambdata/helper_functions.py
+my_lambdata/my_mod.py
