@@ -1,0 +1,6 @@
+How was woring with MOngo DB different from working with SQLite?
+
+The platform, working on data to push to MongoDB from VS Code was different than working in Postgre. I prefer working with NoSQL than SQL personally. 
+
+Was it easier or harder?
+Initially it was harder - but ultimately I prefer it. 
