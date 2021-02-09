@@ -43,7 +43,6 @@ print("Data added to table........")
 conn.commit()
 
 #`row_count`: Count how many rows you have - it should be 3!
-# `xy_at_least_5`: How many rows are there where both `x` and `y` are at least 5?
 
 query = """
 SELECT
@@ -54,6 +53,8 @@ FROM DEMDATA
 result = cursor.execute(query).fetchall()
 
 print("RESULT", result)
+
+# `xy_at_least_5`: How many rows are there where both `x` and `y` are at least 5?
 
 query1 = """
 SELECT
@@ -70,6 +71,8 @@ WHERE Y > 4
 result1 = cursor.execute(query1).fetchall()
 
 result01 = cursor.execute(query01).fetchall()
+
+#unique_y: how many unique values are in 'y'?
 
 print("RESULT", result1, result01)
 
